@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Freelifer - 个人博客</title><link>http://localhost:1313/</link><description>Recent content on Freelifer - 个人博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml"/><item><title>关于我</title><link>http://localhost:1313/about/</link><pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate><guid>http://localhost:1313/about/</guid><description/></item><item><title>阿里云ECS搭建Docker</title><link>http://localhost:1313/post/%E9%98%BF%E9%87%8C%E4%BA%91ecs%E6%90%AD%E5%BB%BAdocker/</link><pubDate>Tue, 16 Oct 2018 10:11:04 +0000</pubDate><guid>http://localhost:1313/post/%E9%98%BF%E9%87%8C%E4%BA%91ecs%E6%90%AD%E5%BB%BAdocker/</guid><description>&lt;p>云服务器Elastic Compute Service（ECS）是阿里云提供的一种基础云计算服务。在其上搭建Docker步骤和注意事项&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Freelifer - 个人博客</title><link>http://freelifer.github.io/</link><description>Recent content on Freelifer - 个人博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate><atom:link href="http://freelifer.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>关于我</title><link>http://freelifer.github.io/about/</link><pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate><guid>http://freelifer.github.io/about/</guid><description/></item><item><title>阿里云ECS搭建Docker</title><link>http://freelifer.github.io/post/%E9%98%BF%E9%87%8C%E4%BA%91ecs%E6%90%AD%E5%BB%BAdocker/</link><pubDate>Tue, 16 Oct 2018 10:11:04 +0000</pubDate><guid>http://freelifer.github.io/post/%E9%98%BF%E9%87%8C%E4%BA%91ecs%E6%90%AD%E5%BB%BAdocker/</guid><description>&lt;p>云服务器Elastic Compute Service（ECS）是阿里云提供的一种基础云计算服务。在其上搭建Docker步骤和注意事项&lt;/p>
 &lt;blockquote>
 &lt;p>系统：CentOS 7.0&lt;/p>
 &lt;/blockquote>
@@ -77,7 +77,7 @@ sudo systemctl restart docker
 -d nginx
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>-v /volume/nginx/nginx.conf:/etc/nginx/nginx.conf:ro \&lt;/p></description></item><item><title>Docker部署nginx</title><link>http://localhost:1313/post/docker%E9%83%A8%E7%BD%B2nginx/</link><pubDate>Sun, 05 Aug 2018 15:11:04 +0000</pubDate><guid>http://localhost:1313/post/docker%E9%83%A8%E7%BD%B2nginx/</guid><description>&lt;p>Nginx (engine x) 是一个高性能的HTTP和反向代理服务，也是一个IMAP/POP3/SMTP服务。利用Docker安装nginx步骤和注意事项&lt;/p>
+&lt;/div>&lt;p>-v /volume/nginx/nginx.conf:/etc/nginx/nginx.conf:ro \&lt;/p></description></item><item><title>Docker部署nginx</title><link>http://freelifer.github.io/post/docker%E9%83%A8%E7%BD%B2nginx/</link><pubDate>Sun, 05 Aug 2018 15:11:04 +0000</pubDate><guid>http://freelifer.github.io/post/docker%E9%83%A8%E7%BD%B2nginx/</guid><description>&lt;p>Nginx (engine x) 是一个高性能的HTTP和反向代理服务，也是一个IMAP/POP3/SMTP服务。利用Docker安装nginx步骤和注意事项&lt;/p>
 &lt;blockquote>
 &lt;p>系统：CentOS 7.0&lt;/p>
 &lt;/blockquote>
@@ -158,7 +158,7 @@ docker inspect &amp;lt;container id&amp;gt;
 docker inspect -f &amp;#39;{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}&amp;#39; container_name_or_id
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>-v /volume/nginx/nginx.conf:/etc/nginx/nginx.conf:ro \&lt;/p></description></item><item><title>docker部署gogs</title><link>http://localhost:1313/post/docker%E9%83%A8%E7%BD%B2gogs/</link><pubDate>Tue, 10 Jul 2018 10:34:25 +0000</pubDate><guid>http://localhost:1313/post/docker%E9%83%A8%E7%BD%B2gogs/</guid><description>&lt;p>利用docker部署gogs，利用nginx反向代理gogs，暴露80端口，配置域名git.xxxx.com&lt;/p>
+&lt;/div>&lt;p>-v /volume/nginx/nginx.conf:/etc/nginx/nginx.conf:ro \&lt;/p></description></item><item><title>docker部署gogs</title><link>http://freelifer.github.io/post/docker%E9%83%A8%E7%BD%B2gogs/</link><pubDate>Tue, 10 Jul 2018 10:34:25 +0000</pubDate><guid>http://freelifer.github.io/post/docker%E9%83%A8%E7%BD%B2gogs/</guid><description>&lt;p>利用docker部署gogs，利用nginx反向代理gogs，暴露80端口，配置域名git.xxxx.com&lt;/p>
 &lt;h3 id="1-mysql数据库安装">1. Mysql数据库安装&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -187,7 +187,7 @@ docker inspect -f &amp;#39;{{range .NetworkSettings.Networks}}{{.IPAddress}}{{en
 &lt;pre class="chroma">&lt;code class="language-bash" data-lang="bash">docker run -p 80:80 --name nginx -v /volume/nginx/html:/usr/share/nginx/html -v /volume/nginx/conf/nginx.conf:/etc/nginx/nginx.conf -v /volume/nginx/conf.d:/etc/nginx/conf.d -v /volume/nginx/logs:/var/log/nginx -d nginx
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>&lt;a href="https://www.cnblogs.com/bingo1024/p/9022890.html">Docker安装nginx&lt;/a>&lt;/p></description></item><item><title>搭建ssr+polipo</title><link>http://localhost:1313/post/%E6%90%AD%E5%BB%BAssr-polipo/</link><pubDate>Wed, 27 Jun 2018 13:40:35 +0000</pubDate><guid>http://localhost:1313/post/%E6%90%AD%E5%BB%BAssr-polipo/</guid><description>&lt;p>&lt;a href="https://github.com/storezhang/docker-ssr-client">https://github.com/storezhang/docker-ssr-client&lt;/a>&lt;/p>
+&lt;/div>&lt;p>&lt;a href="https://www.cnblogs.com/bingo1024/p/9022890.html">Docker安装nginx&lt;/a>&lt;/p></description></item><item><title>搭建ssr+polipo</title><link>http://freelifer.github.io/post/%E6%90%AD%E5%BB%BAssr-polipo/</link><pubDate>Wed, 27 Jun 2018 13:40:35 +0000</pubDate><guid>http://freelifer.github.io/post/%E6%90%AD%E5%BB%BAssr-polipo/</guid><description>&lt;p>&lt;a href="https://github.com/storezhang/docker-ssr-client">https://github.com/storezhang/docker-ssr-client&lt;/a>&lt;/p>
 &lt;p>docker run -d -name ssrp -p 1081:1081 -v /etc/ssrp/data:/ssr-data&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -216,7 +216,7 @@ docker inspect -f &amp;#39;{{range .NetworkSettings.Networks}}{{.IPAddress}}{{en
 docker run -itd -p 8888:8888 --env &lt;span class="nv">SERVER_PORT&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="m">8888&lt;/span> --env &lt;span class="nv">PASSWORD&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="nv">$PASSWORD&lt;/span> --name ssr breakwa11/shadowsocksr
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>搭建gitlab</title><link>http://localhost:1313/post/%E6%90%AD%E5%BB%BAgitlab/</link><pubDate>Wed, 27 Jun 2018 11:25:10 +0000</pubDate><guid>http://localhost:1313/post/%E6%90%AD%E5%BB%BAgitlab/</guid><description>&lt;h3 id="docker安装gitlab镜像">docker安装gitlab镜像&lt;/h3>
+&lt;/div></description></item><item><title>搭建gitlab</title><link>http://freelifer.github.io/post/%E6%90%AD%E5%BB%BAgitlab/</link><pubDate>Wed, 27 Jun 2018 11:25:10 +0000</pubDate><guid>http://freelifer.github.io/post/%E6%90%AD%E5%BB%BAgitlab/</guid><description>&lt;h3 id="docker安装gitlab镜像">docker安装gitlab镜像&lt;/h3>
 &lt;h4 id="1-镜像拉取">1. 镜像拉取&lt;/h4>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -229,7 +229,7 @@ docker run -itd -p 8888:8888 --env &lt;span class="nv">SERVER_PORT&lt;/span>&lt;
 &lt;/div>&lt;p>&lt;a href="https://www.centos.bz/2017/07/docker-install-gitlab-external-nginx/">https://www.centos.bz/2017/07/docker-install-gitlab-external-nginx/&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://www.cnblogs.com/liyangLife/p/8176791.html">https://www.cnblogs.com/liyangLife/p/8176791.html&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://blog.csdn.net/u011054333/article/details/61532271">https://blog.csdn.net/u011054333/article/details/61532271&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.cnblogs.com/gdlinux/p/6760919.html">https://www.cnblogs.com/gdlinux/p/6760919.html&lt;/a>&lt;/p></description></item><item><title>前端动画笔记</title><link>http://localhost:1313/post/%E5%89%8D%E7%AB%AF%E5%8A%A8%E7%94%BB%E7%AC%94%E8%AE%B0/</link><pubDate>Wed, 13 Jun 2018 09:40:06 +0000</pubDate><guid>http://localhost:1313/post/%E5%89%8D%E7%AB%AF%E5%8A%A8%E7%94%BB%E7%AC%94%E8%AE%B0/</guid><description>&lt;p>前端网页制作动画的几种方式&lt;/p>
+&lt;p>&lt;a href="https://www.cnblogs.com/gdlinux/p/6760919.html">https://www.cnblogs.com/gdlinux/p/6760919.html&lt;/a>&lt;/p></description></item><item><title>前端动画笔记</title><link>http://freelifer.github.io/post/%E5%89%8D%E7%AB%AF%E5%8A%A8%E7%94%BB%E7%AC%94%E8%AE%B0/</link><pubDate>Wed, 13 Jun 2018 09:40:06 +0000</pubDate><guid>http://freelifer.github.io/post/%E5%89%8D%E7%AB%AF%E5%8A%A8%E7%94%BB%E7%AC%94%E8%AE%B0/</guid><description>&lt;p>前端网页制作动画的几种方式&lt;/p>
 &lt;h3 id="1-css的transition">1. css的transition&lt;/h3>
 &lt;p>语法：&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -370,12 +370,12 @@ odiv.style.left = odiv.offsetLeft+speed+&amp;#39;px&amp;#39;;
 &amp;lt;/script&amp;gt;
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div></description></item><item><title>Android Studio下的Gradle版本更新</title><link>http://localhost:1313/post/gradle%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85/</link><pubDate>Fri, 01 Jun 2018 10:20:24 +0000</pubDate><guid>http://localhost:1313/post/gradle%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85/</guid><description>&lt;p>Androd Studio升级之后，相应的gradle版本也需要升级，如果任由Android Studio程序自动更新gradle，由于网络的原因，下载最新的Gradle会很慢或者直接失败&lt;/p>
+&lt;/div></description></item><item><title>Android Studio下的Gradle版本更新</title><link>http://freelifer.github.io/post/gradle%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85/</link><pubDate>Fri, 01 Jun 2018 10:20:24 +0000</pubDate><guid>http://freelifer.github.io/post/gradle%E7%A6%BB%E7%BA%BF%E5%AE%89%E8%A3%85/</guid><description>&lt;p>Androd Studio升级之后，相应的gradle版本也需要升级，如果任由Android Studio程序自动更新gradle，由于网络的原因，下载最新的Gradle会很慢或者直接失败&lt;/p>
 &lt;h3 id="下载gradle">下载Gradle&lt;/h3>
 &lt;p>gradle的&lt;a href="https://services.gradle.org/distributions/">官方下载地址&lt;/a>，打开后下载对应的gradle-x.x-all.zip版本，也可以复制下载链接到迅雷中&lt;/p>
 &lt;h3 id="替换本地gradle">替换本地gradle&lt;/h3>
 &lt;p>将下载下来的gradle-x.x-all.zip压缩文件直接复制到用户目录&lt;code>USER_HOME/.gradle/wrapper/dists/gradle-x.x-all/8bnwg5hd3w55iofp58khbp6yv/&lt;/code>目录下，该目录下的其它文件全部删除，8bnwg5hd3w55iofp58khbp6yv这个目录是由Android Studio自动生成的，不可更改。&lt;/p>
-&lt;p>重新打开Android Studio，会自动解压并生成文件，到此gradle更新完成。&lt;/p></description></item><item><title>PS快捷键</title><link>http://localhost:1313/post/ps%E5%BF%AB%E6%8D%B7%E9%94%AE/</link><pubDate>Thu, 24 May 2018 22:51:48 +0000</pubDate><guid>http://localhost:1313/post/ps%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid><description>&lt;p>photoshop快捷键记录&lt;/p>
+&lt;p>重新打开Android Studio，会自动解压并生成文件，到此gradle更新完成。&lt;/p></description></item><item><title>PS快捷键</title><link>http://freelifer.github.io/post/ps%E5%BF%AB%E6%8D%B7%E9%94%AE/</link><pubDate>Thu, 24 May 2018 22:51:48 +0000</pubDate><guid>http://freelifer.github.io/post/ps%E5%BF%AB%E6%8D%B7%E9%94%AE/</guid><description>&lt;p>photoshop快捷键记录&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
@@ -396,7 +396,7 @@ odiv.style.left = odiv.offsetLeft+speed+&amp;#39;px&amp;#39;;
 &lt;td align="center">Ctrl+Delete&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>服务器端口修改防扫描攻击</title><link>http://localhost:1313/post/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E5%8F%A3%E4%BF%AE%E6%94%B9%E9%98%B2%E6%89%AB%E6%8F%8F%E6%94%BB%E5%87%BB/</link><pubDate>Tue, 22 May 2018 09:45:21 +0000</pubDate><guid>http://localhost:1313/post/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E5%8F%A3%E4%BF%AE%E6%94%B9%E9%98%B2%E6%89%AB%E6%8F%8F%E6%94%BB%E5%87%BB/</guid><description>&lt;p>服务器可能会受到暴力破解SSH登录，批量端口扫描等问题，所有服务器需要防暴力破解，修改或关闭常用的端口&lt;/p>
+&lt;/table></description></item><item><title>服务器端口修改防扫描攻击</title><link>http://freelifer.github.io/post/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E5%8F%A3%E4%BF%AE%E6%94%B9%E9%98%B2%E6%89%AB%E6%8F%8F%E6%94%BB%E5%87%BB/</link><pubDate>Tue, 22 May 2018 09:45:21 +0000</pubDate><guid>http://freelifer.github.io/post/%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%AB%AF%E5%8F%A3%E4%BF%AE%E6%94%B9%E9%98%B2%E6%89%AB%E6%8F%8F%E6%94%BB%E5%87%BB/</guid><description>&lt;p>服务器可能会受到暴力破解SSH登录，批量端口扫描等问题，所有服务器需要防暴力破解，修改或关闭常用的端口&lt;/p>
 &lt;h3 id="尝试登录到服务器的密码尝试失败的ip和次数">尝试登录到服务器的密码尝试失败的ip和次数&lt;/h3>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
@@ -546,7 +546,7 @@ grep &lt;span class="nv">$IP&lt;/span> /etc/hosts.deny &amp;gt; /dev/null
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>&lt;a href="https://www.xiaoz.me/archives/9831">CentOS 7安装fail2ban + Firewalld防止爆破与CC攻击&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-centos-7">fail2ban&lt;/a>&lt;/p></description></item><item><title>docker MySQL主从复制</title><link>http://localhost:1313/post/mysql%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6/</link><pubDate>Sat, 19 May 2018 22:53:33 +0000</pubDate><guid>http://localhost:1313/post/mysql%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6/</guid><description>&lt;p>master01.cnf配置&lt;/p>
+&lt;p>&lt;a href="https://www.digitalocean.com/community/tutorials/how-to-protect-ssh-with-fail2ban-on-centos-7">fail2ban&lt;/a>&lt;/p></description></item><item><title>docker MySQL主从复制</title><link>http://freelifer.github.io/post/mysql%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6/</link><pubDate>Sat, 19 May 2018 22:53:33 +0000</pubDate><guid>http://freelifer.github.io/post/mysql%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6/</guid><description>&lt;p>master01.cnf配置&lt;/p>
 &lt;p>[mysqld]
 log-bin=mysql-master01-bin # 使用binary logging，mysql-master01-bin是log文件名的前缀
 server-id=1 # 唯一服务器ID，非0整数，不能和其他服务器的server-id重复&lt;/p>
@@ -611,7 +611,7 @@ drop user test;&lt;/p>
 &lt;p>　　mysql&amp;gt; SOURCE d:/mysql.sql;&lt;/p>
 &lt;p>　　11、命令行修改root密码：&lt;/p>
 &lt;p>　　mysql&amp;gt; UPDATE mysql.user SET password=PASSWORD(&amp;lsquo;新密码&amp;rsquo;) WHERE User='root&amp;rsquo;;&lt;/p>
-&lt;p>　　mysql&amp;gt; FLUSH PRIVILEGES;&lt;/p></description></item><item><title>ArrayMap源码阅读</title><link>http://localhost:1313/post/arraymap%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/</link><pubDate>Fri, 18 May 2018 10:11:04 +0000</pubDate><guid>http://localhost:1313/post/arraymap%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/</guid><description>&lt;p>ArrayMap 可以用来代替HashMap，它是一个&amp;lt;key,value&amp;gt;映射的数据结构，设计上更多的是考虑了内存的优化。&lt;/p>
+&lt;p>　　mysql&amp;gt; FLUSH PRIVILEGES;&lt;/p></description></item><item><title>ArrayMap源码阅读</title><link>http://freelifer.github.io/post/arraymap%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/</link><pubDate>Fri, 18 May 2018 10:11:04 +0000</pubDate><guid>http://freelifer.github.io/post/arraymap%E6%BA%90%E7%A0%81%E9%98%85%E8%AF%BB/</guid><description>&lt;p>ArrayMap 可以用来代替HashMap，它是一个&amp;lt;key,value&amp;gt;映射的数据结构，设计上更多的是考虑了内存的优化。&lt;/p>
 &lt;h3 id="arraymap基础知识">ArrayMap基础知识&lt;/h3>
 &lt;blockquote>
 &lt;p>ArrayMap 位于 &lt;a href="https://github.com/aosp-mirror/platform_frameworks_base/blob/master/core/java/android/util/ArrayMap.java">android.util.ArrayMap&lt;/a>和&lt;a href="https://github.com/aosp-mirror/platform_frameworks_support/blob/master/compat/src/main/java/android/support/v4/util/ArrayMap.java">android.support.v4.util.ArrayMap&lt;/a>包中。&lt;/p>
@@ -626,7 +626,7 @@ drop user test;&lt;/p>
 • SparseBooleanArray 替代 HashMap&amp;lt;Integer,Boolean&amp;gt;
 • SparseIntArray 替代 HashMap&amp;lt;Integer,Integer&amp;gt;
 • SparseLongArray 替代 HashMap&amp;lt;Integer,Long&amp;gt;
-• LongSparseArray&lt;!-- raw HTML omitted --> 替代 HashMap&amp;lt;Long,V&amp;gt;&lt;/p></description></item><item><title>docker golang编译</title><link>http://localhost:1313/post/docker-golang%E7%BC%96%E8%AF%91/</link><pubDate>Tue, 15 May 2018 10:20:04 +0000</pubDate><guid>http://localhost:1313/post/docker-golang%E7%BC%96%E8%AF%91/</guid><description>&lt;h3 id="基于scratch镜像">基于scratch镜像&lt;/h3>
+• LongSparseArray&lt;!-- raw HTML omitted --> 替代 HashMap&amp;lt;Long,V&amp;gt;&lt;/p></description></item><item><title>docker golang编译</title><link>http://freelifer.github.io/post/docker-golang%E7%BC%96%E8%AF%91/</link><pubDate>Tue, 15 May 2018 10:20:04 +0000</pubDate><guid>http://freelifer.github.io/post/docker-golang%E7%BC%96%E8%AF%91/</guid><description>&lt;h3 id="基于scratch镜像">基于scratch镜像&lt;/h3>
 &lt;blockquote>
 &lt;p>Docker生态系统有一个特殊的镜像：scratch.这是一个空镜像。它不需要被创建或者下载，因为定义的就是空的。&lt;/p>
 &lt;/blockquote>
